@@ -1,0 +1,8 @@
+#This script will create parameters to use for a regression line (intercept and slope, also for the 103% of this slope) based on the regression of col1 and col2
+
+if(exists("col1")){
+lm.out<-lm(col1~col2)
+intercept<-(coef(lm.out)[1])
+intercept103<-intercept*1.03
+slope<-coef(lm.out)[2]
+
