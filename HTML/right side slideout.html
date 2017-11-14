@@ -1,0 +1,61 @@
+<!-- Slides out of right side - make sure to close divs as per left side slide out -->
+
+<style>
+    #sliderright {
+        /* position: absolute; */
+        position: fixed;
+        top: 25px;
+        right: 0px;
+        width: 50px;
+        z-index: 1;
+        height: 90%;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+    }
+    #sliderright_tab1 {
+        position: absolute;
+        top: 57px;
+        left: -35px;
+        z-index: 1;
+        width: 120px;
+        height: 25px;
+        padding: 10px 5px 0px 0px;
+        text-align: center;
+        background: grey;
+        color: #FFFFFF ;
+        cursor:pointer;
+        font-size:140%;
+        border-radius: 12px 12px 0px 0px;
+    }
+    #tabby {
+        position: absolute;
+        top: 10px;
+        left: 45px;
+        background: white;
+        width: 280px;
+        padding: 15px;
+        z-index: 1;
+        height: 70%;
+        cursor:auto;
+        border: 5px solid #bfbfbf;
+        border-radius: 5px;
+        -webkit-border-radius: 5px 0 0 5px;
+        -moz-border-radius: 5px 0 0 5px;
+        border-radius: 5px 0 0 5px;
+    }
+    #showblock1:checked + #sliderright{right:250px;}
+    #showblock1{display:none;}
+
+   .vericaltext{
+     transform: rotate(270deg);
+
+</style>
+<input type="checkbox" id="showblock1"></input>
+
+<div id="sliderright">
+
+<label id="sliderright_tab1" for="showblock1" class="vericaltext title="Admin Slider"> &nbsp; DECISIONS </label>
+
+<div id="tabby">

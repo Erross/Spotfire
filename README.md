@@ -44,3 +44,6 @@ supsu curve function for R in Spotfire - creates a supsmu curve dataset to plot 
 ### Left Side Slideout
 This creates a text area which moves into and out of the left side of the screen onclick
 
+### Right Side Slideout
+This creates a text area which moves into and out of the right side of the screen onclick
+
