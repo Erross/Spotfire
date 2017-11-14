@@ -35,6 +35,8 @@ Ironpython code which will build HTML to inject into a text area (it does this i
 ### regression
 This R code snippet will create parameters to use to plot regeression of 2 columns on a graph (intercept and slope of line as outputs)
 
+### supsmu curve
+supsu curve function for R in Spotfire - creates a supsmu curve dataset to plot on top of data
 ## HTML
 ### Left Side Slideout
 This creates a text area which moves into and out of the left side of the screen onclick

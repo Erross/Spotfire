@@ -1,0 +1,23 @@
+#R data function for R - takes input of dataTable
+# xname (column on X axis)
+# Yname (column on Y axis)
+# span (span for smoothing)
+# and creates a table output which can be used on a scatterplot to plot a supsmu smoothed curve
+
+# R_ScatterplotSmoother
+if(is.na(match(xname, names(dataTable)))) {
+    stop("Cannot find ", xname, " in the input dataTable")
+}
+if(is.na(match(yname, names(dataTable)))) {
+    stop("Cannot find ", yname, " in the input dataTable")
+}
+xy <- na.omit(dataTable[, c(xname, yname)])
+if(dim(xy)[1]*span < 3) {
+        stop("Not enough non-missing observations for a span of ", span,
+	        ". Try increasing the value of span")
+	}
+#smoothObj <- loess.smooth(x=xy[, xname], y=xy[, yname], span=span)
+#smoothData <- data.frame(x=smoothObj$x, ysmooth=smoothObj$y)
+
+smoothObj2 <- supsmu(x=xy[, xname],y=xy[, yname])
+smoothData <- data.frame(x=smoothObj2$x, ysmooth=smoothObj2$y)
