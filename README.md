@@ -5,6 +5,9 @@ Accordion.js provides the javascript for building an accordion menu <br>
 which will repopulate on refresh in order to 'fix' broken filters which occured<br>
 on the change to Spotfire 7.7
 
+### javascript to push button on load
+Script will push a button (by spotfire identifier, modify in script) to allow for actions to trigger on load of the text area (this occurs every time the page is navigated to) - good in synchronicity with the screen resolution fixer.py
+
 ## PythonScripts
 ### Change Graph Setup
 Change Graph Setup.py provides a generic ironpython script which can be used to
