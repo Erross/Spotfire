@@ -22,7 +22,7 @@ a 1992 simulator
 ### Tag rows
 Generic Script to tag rows - requires pre defined tags
 
-## Tag rows with free text
+### Tag rows with free text
 Generic Script to tag rows with a user entered free text - defines tags on the fly (requires tag group to exist only)
 
 ## R
