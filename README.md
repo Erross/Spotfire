@@ -1,25 +1,25 @@
 # Spotfire Scripts
 ## Javascripts
-###Accordion
+### Accordion
 Accordion.js provides the javascript for building an accordion menu <br>
 which will repopulate on refresh in order to 'fix' broken filters which occured<br>
 on the change to Spotfire 7.7
 
-##PythonScripts
-###Change Graph Setup
+## PythonScripts
+### Change Graph Setup
 Change Graph Setup.py provides a generic ironpython script which can be used to
 change a graphs x axis properties and title - extensible with other graph related doodads
 
-###Reset Discngine
+### Reset Discngine
 In order to efficiently use the discngine connector it makes more sense to have each visualization
 point to a specific form, rather than use the discngine provided menu structure. In order to do this 
 a property must be maintained which keeps this linkage current
 
-###Screen Resolution Fixer
+### Screen Resolution Fixer
 Code to force the display size to be larger than the resolution on monitors where people have decided to run
 a 1992 simulator
 
-###Tag rows
+### Tag rows
 Generic Script to tag rows - requires pre defined tags
 
 
