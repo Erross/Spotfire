@@ -1,0 +1,20 @@
+
+#This Script is used to create an accordion in a text area - id of the div should be myaccordion
+
+$( "#myaccordion" ).accordion({
+  collapsible: true, active: true, heightStyle: 'content',
+  activate: function(event, ui) {
+
+		$(".sf-input-with-placeholder").width("173px");
+		$(".ListContainer").width("200px");
+		$(".ListContainerScroll").width("194px");
+		$(".Image").css("left","197px");
+		$(".sfc-scrollable").width("192px");
+		$(".ListContainerScroll .HorizontalScrollbarContainer").width("178px");
+		$(".ListContainerScroll .VerticalScrollbarContainer").css("left","180px");
+		$(".ListContainerScroll .VerticalScrollbarContainer").css("top","0px");
+
+		$(".sf-element-list-box .ScrollArea").width("178px");
+
+		$(".ListItems .sf-element-list-box-item").width("166px");
+ },
