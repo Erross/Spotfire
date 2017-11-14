@@ -27,6 +27,9 @@ Generic Script to tag rows with a user entered free text - defines tags on the f
 
 ### Trigger Data Function
 Ironpython code to trigger a named data function
+
+### Display altered filters
+Ironpython code which will build HTML to inject into a text area (it does this inject) named Show_Filters - only shows modified filters for the filter scheme of the active page.
 ## R
 
 ### regression
