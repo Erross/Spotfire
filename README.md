@@ -22,5 +22,10 @@ a 1992 simulator
 ### Tag rows
 Generic Script to tag rows - requires pre defined tags
 
+## R
+
+### regression
+This R code snippet will create parameters to use to plot regeression of 2 columns on a graph (intercept and slope of line as outputs)
+
 
 
