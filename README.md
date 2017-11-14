@@ -27,5 +27,7 @@ Generic Script to tag rows - requires pre defined tags
 ### regression
 This R code snippet will create parameters to use to plot regeression of 2 columns on a graph (intercept and slope of line as outputs)
 
-
+## HTML
+### Left Side Slideout
+This creates a text area which moves into and out of the left side of the screen onclick
 

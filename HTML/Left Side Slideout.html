@@ -1,0 +1,67 @@
+<!-- This HTML Snippet should be added to the top of html in text box, it will create a couple of DIVs to be created which will act as a slideout - remember to close these divs at the end of the html
+-->
+<style>
+    #slideout1 {
+        /* position: absolute; */
+        position: fixed;
+        top: 25px;
+        left: -10px;
+        width: 50px;
+        z-index: 1;
+        height: 90%;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.1s;
+    }
+    #slideout_tab1 {
+        position: absolute;
+        top: 45px;
+        left: -20px;
+        z-index: 1;
+        width: 100px;
+        height: 25px;
+        padding: 10px 5px 0px 0px;
+        text-align: center;
+        background: grey;
+        color: white;
+	opacity: 0.8;
+        cursor:pointer;
+        font-size:100%;
+
+        border-radius: 10px 10px 0px 0px;
+    }
+    #slideout_inner1 {
+        position: absolute;
+        top: 10px;
+        right: 35px;
+        background: white;
+        width: 250px;
+        padding: 15px;
+        z-index: 1;
+        height: 100%;
+        cursor:auto;
+        border: 5px solid #bfbfbf;
+        border-radius: 5px;
+        -webkit-border-radius: 5px 0 0 5px;
+        -moz-border-radius: 5px 0 0 5px;
+        border-radius: 5px 0 0 5px;
+    }
+
+    #showblock:checked + #slideout1{left:280px;}
+    #showblock{display:none;}
+
+    .verticaltext{
+     transform: rotate(90deg);
+
+
+
+}
+
+</style>
+
+<input type="checkbox" id="showblock">
+<div id="slideout1">
+    <label id="slideout_tab1" for="showblock" class="verticaltext"  >
+ &nbsp; FILTERS </label>
+    <div id="slideout_inner1">
