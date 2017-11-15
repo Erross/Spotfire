@@ -37,6 +37,8 @@ Ironpython code which will build HTML to inject into a text area (it does this i
 ### Auto-select columns for table
 Ironpython code which will take a column order from one table (name and order number 1 .. x) and rebuild the table viz to reflect the incoming data - includes code for forcing first columsn through hard code, adding ordered columns and then assigning width to the columns (default or forced to wider for known columns where this is required)
 
+### Remove tabs with script
+Removes tabs based on tab name and a user confirmation property (yes/no)
 
 ## R
 
