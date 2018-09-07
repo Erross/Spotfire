@@ -1,0 +1,16 @@
+####in order to push multiple action control buttons in spotfire the following needs to be in the text area of HTML (for some reason this doesnt work as a standalone JS, dont @ me)
+
+<script>function PressButtons(){
+$("#first .sf-element").trigger("click");
+$("#second .sf-element").trigger("click");
+}</script>
+
+<button onclick="PressButtons()">Click this</button>
+
+<div id='first'>
+<SpotfireControl id="29abadc5dd2449a59a882f7889c42a03" /></div>
+<div id='second'><SpotfireControl id="1df47247a59f4da1a8caf1199cbaf7be" /></div>
+
+
+#### the divs can then be hidden, the spotfire controls can be to anything (a script, or trigger a datafuntion)
+#### button can also be styled through css or whatnot.
