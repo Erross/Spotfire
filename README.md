@@ -10,7 +10,7 @@ Script will push a button (by spotfire identifier, modify in script) to allow fo
 
 ### js to push multiple buttons
 
-Have one html defined button push multiple spotfire action control buttons (which you can hide) 
+Have one html defined button push multiple spotfire action control buttons (which you can hide)
 ## PythonScripts
 ### Change Graph Setup
 Change Graph Setup.py provides a generic ironpython script which can be used to
@@ -19,7 +19,7 @@ change a graphs x axis properties and title - extensible with other graph relate
 ### Reset Discngine
 In order to efficiently use the discngine connector it makes more sense to have each visualization
 point to a specific form, rather than use the discngine provided menu structure. In order to do this 
-a property must be maintained which keeps this linkage current
+a property must be maintained which keeps this linkage current (this may not be necessary after Discngine 4.1.0)
 
 ### Screen Resolution Fixer
 Code to force the display size to be larger than the resolution on monitors where people have decided to run
